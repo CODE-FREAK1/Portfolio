@@ -1,0 +1,677 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.first-container{
+    color: white;
+    display: flex;
+}
+
+.text{
+    background-color: brown;
+    padding: 2rem 2rem;
+}
+.head{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    
+}
+.second{
+    font-size: 1.2rem;
+    
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: gold;
+    gap: 5rem;
+    padding: 1rem 5rem;
+}
+header p{
+    cursor: pointer;
+}
+
+.second-container{
+   display: flex;
+   gap: 3rem;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.pin{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.pic2 img{
+    width: 350px;
+    height: 500px;
+    object-fit: fill;
+}
+
+.third-container{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.sec{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+}
+
+.list ol{
+    font-weight: bolder;
+    padding-left: 3rem;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    gap: 6rem;
+    padding-top: 5rem;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 3px;
+    background-color: gold;
+    box-shadow: 0px 0px 10px 4px black;
+    border-radius: 1rem;
+    color: black;
+    
+}
+
+footer{
+    background-color: black;
+    padding: 1rem 2rem;
+    color: white;
+    text-align: center;
+}
+
+.last{
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.last button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: gold;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.last button a{
+    color: gold;
+    text-decoration: none;
+}
+
+.box1{
+    font-weight: bolder;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+}
+
+.take1{
+    font-weight: bold;
+    padding: 1.7rem 1.5rem;
+    font-size: 1rem;
+}
+
+.take2{
+    font-weight: bold;
+    padding: 1.7rem 1.5rem;
+    font-size: 1rem;
+}
+
+.take3{
+    font-weight: bold;
+    padding: 1.7rem 1.5rem;
+    font-size: 1rem;
+}
+body{
+    background-color: rgb(180, 172, 172);
+}
+@media (max-width: 1100px) {
+    .head{
+        font-size: 2.5rem;
+        padding-bottom: 0.9rem;
+    }
+    .second{
+        font-size: 1rem;
+        
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .second-container{
+        gap: 5rem;
+    }
+    .third-container{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .pic2 img{
+        width: 200px;
+        height: 300px;
+        object-fit: fill;
+    }
+    .pin{
+        text-align: center;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    
+    }
+    .list-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6rem;
+        padding-top: 2rem;
+    } 
+    .box{
+        width: 200px;
+        height: 300px;
+        border: 3px;
+        background-color: rgb(240, 206, 13);
+        box-shadow: 0px 0px 10px 4px black;
+        border-radius: 1rem;
+        color: black;
+    }
+  .box1{
+        font-weight: bolder;
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .take1{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    .take2{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+
+    }
+    
+    .take3{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+
+    }
+    .last button{
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        background-color: black;
+        color: gold;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    footer p{
+        font-size: 0.8rem;
+        color: white;
+        text-align: center;
+    }
+    header{
+        display: flex;
+        background-color: gold;
+        gap: 4rem;
+        justify-content: center;
+        
+    }
+    header p{
+        cursor: pointer;
+        font-size: 0.7rem;
+    }
+    body{
+        background-color: rgb(180, 172, 172);
+    }
+    
+}
+@media (max-width: 850px) {
+    .head{
+        font-size: 2rem;
+        padding-bottom: 0.9rem;
+    }
+    .second{
+        font-size: 1rem;
+        
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .third-container{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .pic2 img{
+        width: 200px;
+        height: 300px;
+        object-fit: fill;
+    }
+    .pin{
+        text-align: center;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    
+    }
+    .list-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6rem;
+        padding-top: 2rem;
+    } 
+    .box{
+        width: 200px;
+        height: 300px;
+        border: 3px;
+        background-color: rgb(240, 206, 13);
+        box-shadow: 0px 0px 10px 4px black;
+        border-radius: 1rem;
+        color: black;
+    }
+    .box1{
+        font-weight: bolder;
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .take1{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .take2{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .take3{
+         font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    .last button{
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        background-color: black;
+        color: gold;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    footer p{
+        font-size: 0.8rem;
+        color: white;
+        text-align: center;
+    }
+    header{
+        display: flex;
+        background-color: gold;
+        gap: 1rem;
+        justify-content: center;
+        
+    }
+    header p{
+        cursor: pointer;
+        font-size: 0.5rem;
+    }
+    body{
+        background-color: rgb(180, 172, 172);
+    }
+    
+}
+@media (max-width: 600px) {
+    .head{
+        font-size: 1.3rem;
+        padding-bottom: 0.9rem;
+    }
+    .second{
+        font-size: 0.7rem;
+        
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .third-container{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .pic2 img{
+        width: 200px;
+        height: 300px;
+        object-fit: fill;
+    }
+    .pin{
+        text-align: center;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    
+    }
+    .list-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6rem;
+        padding-top: 2rem;
+    } 
+    .box{
+        width: 200px;
+        height: 300px;
+        border: 3px;
+        background-color: rgb(240, 206, 13);
+        box-shadow: 0px 0px 10px 4px black;
+        border-radius: 1rem;
+        color: black;
+    }
+    .box1{
+        font-weight: bolder;
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .take1{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .take2{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .take3{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    .last button{
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        background-color: black;
+        color: gold;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    footer p{
+        font-size: 0.8rem;
+        color: white;
+        text-align: center;
+    }
+    header{
+        display: flex;
+        background-color: gold;
+        gap: 1rem;
+        justify-content: center;
+        
+    }
+    header p{
+        cursor: pointer;
+        font-size: 0.5rem;
+    }
+    body{
+        background-color: rgb(180, 172, 172);
+    }
+    
+}
+@media (max-width: 450px) {
+    .head{
+        font-size: 1.3rem;
+        padding-bottom: 0.9rem;
+    }
+    .second{
+        font-size: 0.5rem;
+        
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .third-container{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .pic2 img{
+        width: 200px;
+        height: 300px;
+        object-fit: fill;
+    }
+    .pin{
+        text-align: center;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    
+    }
+    .list-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        box-sizing: border-box; 
+        gap: 6rem;
+        padding-top: 2rem;
+    } 
+    .box{
+        width: 200px;
+        height: 300px;
+        border: 3px;
+        background-color: rgb(240, 206, 13);
+        box-shadow: 0px 0px 10px 4px black;
+        border-radius: 1rem;
+        color: black;
+    }
+    .box1{
+        font-weight: bolder;
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .take1{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .take2{
+        font-weight: bold;
+        padding: 1.4rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .take3{
+        font-weight: bold;
+        padding: 1rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    .last button{
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        background-color: black;
+        color: gold;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    footer p{
+        font-size: 0.8rem;
+        color: white;
+        text-align: center;
+    }
+    header{
+        display: flex;
+        background-color: gold;
+        gap: 1rem;
+        justify-content: center;
+        
+    }
+    header p{
+        cursor: pointer;
+        font-size: 0.5rem;
+    }
+    body{
+        background-color: rgb(180, 172, 172);
+    }
+    
+}
+
+@media (max-width: 300px) {
+    .head{
+        font-size: 1.5rem;
+        padding-bottom: 0.3rem;
+    }
+    .second{
+        font-size: 0.5rem;
+        
+    }
+    .first-container{
+        flex-wrap: wrap;
+    }
+    .pic img{
+        padding-top: 1rem;
+    }
+    .pic {
+        width: 200px;
+        height: 200px;
+        padding-left: 3rem;
+        padding-bottom: 1rem;
+    }
+    .third-container{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .pic2 img{
+        width: 200px;
+        height: 300px;
+        object-fit: fill;
+    }
+    .pin{
+        text-align: center;
+        font-size: 1.8rem;
+        padding-top: 1rem;
+    
+    }
+    .list-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+        gap: 6rem;
+        padding-top: 2rem;
+    } 
+    .box{
+        width: 200px;
+        height: 300px;
+        border: 3px;
+        background-color: rgb(240, 206, 13);
+        box-shadow: 0px 0px 10px 4px black;
+        border-radius: 1rem;
+        color: black;
+    }
+    .box1{
+        font-weight: bolder;
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .take1{
+        font-weight: bold;
+        padding: 1.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .take2{
+        font-weight: bold;
+        padding: 1.4rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .take3{
+        font-weight: bold;
+        padding: 1rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    .last button{
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        background-color: black;
+        color: gold;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    footer p{
+        font-size: 0.8rem;
+        color: white;
+        text-align: center;
+    }
+    header{
+        display: flex;
+        background-color: gold;
+        gap: 1rem;
+        justify-content: center;
+    }
+    header p{
+        cursor: pointer;
+        font-size: 0.5rem;
+    }
+    body{
+        background-color: rgb(180, 172, 172);
+    }
+}
